@@ -24,7 +24,7 @@ public class DivisaoService {
 		
 		for(BigDecimal divideTodos: listaDeNumeros) {
 			try {
-				this.resultado = this.resultado.divide(divideTodos,10, RoundingMode.HALF_UP);//permite 10 casas decimais e o half_up arredonda a numeração
+				this.resultado = this.resultado.divide(divideTodos,2, RoundingMode.HALF_UP);//permite 10 casas decimais e o half_up arredonda a numeração
 			}catch(ArithmeticException e) {
 				permitido = false;
 			}
