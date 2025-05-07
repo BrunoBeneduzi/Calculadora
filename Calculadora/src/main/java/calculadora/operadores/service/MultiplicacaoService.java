@@ -26,6 +26,7 @@ public class MultiplicacaoService {
 		
 		System.out.println("A multiplicação de todos os numeros foi de -> "+ this.resultado);
 		listaDeNumeros.clear();
+		this.resultado = BigDecimal.ZERO;
 	}
 	
 	private List<BigDecimal> adicionaNumerosNaLista() {
