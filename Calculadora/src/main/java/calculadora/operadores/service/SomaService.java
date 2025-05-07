@@ -20,6 +20,7 @@ public class SomaService {
 		
 		System.out.println("A soma de todos os numeros foi de -> "+ this.resultado);
 		listaDeNumeros.clear();
+		this.resultado = BigDecimal.ZERO;
 	}
 	
 	private List<BigDecimal> adicionaNumerosNaLista() {
