@@ -36,6 +36,7 @@ public class DivisaoService {
 			System.out.println("Não é possivel fazer a divisão por ZERO");
 		}
 		listaDeNumeros.clear();
+		this.resultado = BigDecimal.ZERO;
 		
 	}
 	
